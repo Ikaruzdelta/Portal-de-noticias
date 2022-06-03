@@ -319,3 +319,52 @@ body{
     margin-left: 20;
     color: #ccc;
 }
+
+@media screen and (max-width:1056px){
+    .centerright{
+        display: none;
+    }
+
+    .leftside{
+        float: none;
+        width: 755px;
+        margin: auto;
+    }
+
+    .rightside{
+        width: 755px;
+        float: none;
+        margin: auto;
+    }
+
+    .ultnoticiasarea{
+        height: 28px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+        margin-top: 10px;
+    }
+    .ultnoticiastitulo{
+        background-color: tomato;
+        color: aliceblue;
+        height: 28px;
+        text-align: center;
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .ultnoticiasnoticia{
+        display: none;
+    }
+    
+    .topocenter{
+        text-align: center;
+        margin: auto;
+    }
+    
+    .centerleft img{
+        float: none;
+        margin: auto;
+    }
+
+}
