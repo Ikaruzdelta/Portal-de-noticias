@@ -368,3 +368,152 @@ body{
     }
 
 }
+
+@media screen and (max-width:412px){
+    .centerright{
+        display: none;
+    }
+
+    .leftside{
+        float: none;
+        width: auto;
+        margin: auto;
+    }
+
+    .rightside{
+        width: auto;
+        float: none;
+        margin: auto;
+    }
+
+    .ultnoticiasarea{
+        height: 28px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+        margin-top: 10px;
+    }
+    .ultnoticiastitulo{
+        background-color: tomato;
+        color: aliceblue;
+        height: 28px;
+        text-align: center;
+        float: none;
+        margin: auto;
+    }
+
+    .ultnoticiasnoticia{
+        display: none;
+    }
+    
+    .topocenter{
+        text-align: center;
+        margin: auto;
+    }
+    
+    .centerleft img{
+        float: none;
+        margin: auto;
+        width: 200px;
+    }
+
+    .noticiaimg_big{
+        float: left;
+        margin-left: 7px;
+        text-align: center;
+    }
+    
+    .noticiatitulo_big{
+        float: none;
+        margin: auto;
+        font-size: 50px;
+    }
+    
+    .noticiainfo_big{
+        font-size: 11px;
+        font-size: 16px;
+        float: none;
+        margin: auto;
+        color: #ccc;
+    }
+
+    .topoint{
+        width: 100%;
+        max-width: 1040px;
+        height: 30px;
+        background-color: tomato;
+        margin: auto;
+    }
+    
+    .topoleft{
+        width: auto;
+        height: 30px;
+        float: none;
+    }
+
+    .slider{
+        width: 400px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .slides{
+        width: auto;
+        display: flex;
+    }
+    
+    .slides input{
+        display: none;
+    }
+    
+    .slide{
+        width: auto;
+        position: relative;
+    }
+    
+    .slide img{
+        width: 400px;
+    }
+
+    .manual-navigation{
+        position: absolute;
+        width: 412px;
+        margin-top: 200;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .manual-btn{
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .manual-btn:not(:last-child){
+        margin-right: 10px;
+    }
+    
+    .manual-btn:hover{
+        background-color: #fff;
+    }
+    
+    .navigation-auto div{
+        
+        border: 2px solid tomato;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .navigation-auto{
+        position: absolute;
+        width: 412px;
+        margin-top: 200;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
